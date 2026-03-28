@@ -1,0 +1,30 @@
+{
+  "name": "langchain-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/anthropic": "^1.3.18",
+    "@langchain/core": "^1.1.29",
+    "@langchain/google-genai": "^2.1.19",
+    "@langchain/groq": "^1.1.3",
+    "@langchain/openai": "^1.2.8",
+    "@langchain/tavily": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "langchain": "^1.2.25",
+    "langsmith": "^0.5.6",
+    "openai": "^6.22.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0"
+  }
+}
